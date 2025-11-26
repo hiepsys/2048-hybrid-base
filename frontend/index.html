@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2048 Hybrid on Base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>2048 on Base (Hybrid)</h1>
+    <div id="game-container"></div>
+
+    <div id="scorebar">
+      <span id="score">Score: 0</span>
+      <button id="submitBtn">Submit score to Base</button>
+    </div>
+
+    <div id="leaderboard">
+      <h2>Leaderboard (on-chain)</h2>
+      <ol id="lb-list"></ol>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
